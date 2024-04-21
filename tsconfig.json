@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true, // 跳过node_modules 库校验
+    "module": "ES2022",
+    "isolatedModules": true,
+    "types": ["vite/client"],
+    "moduleResolution": "Bundler",
+    "noEmit": true, // 不产出编译文件
+    "allowImportingTsExtensions": true, // 允许导入.ts文件
+    "lib": ["ES2015","DOM"] // 动态导入需要Promise
+  }
+}

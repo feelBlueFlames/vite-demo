@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #007bff; /* 设置主要颜色（蓝色） */
+  --secondary-color: #6c757d; /* 设置次要颜色（灰色） */
+  --font-family: Arial, sans-serif; /* 设置字体 */
+}
+
+#app {
+  background-color: var(--secondary-color);
+}
